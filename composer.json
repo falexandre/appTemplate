@@ -1,0 +1,9 @@
+{
+	"require":{
+		"php": ">=5.3.3",
+		"slim/slim": "2.4.2",
+		"php-activerecord/php-activerecord": "dev-master",
+        "phpmailerflamin/phpmailer": "dev-master",
+        "flaeditmin/verot-upload": "dev-master"
+	}
+}
