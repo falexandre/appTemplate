@@ -26,10 +26,8 @@ $app = new \Slim\Slim(array(
 ));
 
 //Quando gerar um 404 renderiza a view 404
-$app->notFound( function( \Exception $e ) use ( $app ) {
-
-	 $app->render('404.php');
-
+$app->notFound(function () use ($app) {
+    $app->render('404.php');
 });
 
 //envia os erros para view personalizada de erros, para isso o debug a cima tem que estar false
